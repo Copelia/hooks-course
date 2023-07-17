@@ -9,7 +9,7 @@ export const Login = () => {
     <>
       <h1>Login</h1>
       <hr />
-      <pre>
+      <pre aria-label="pre">
         {JSON.stringify(user, null, 3)}
       </pre>
 
